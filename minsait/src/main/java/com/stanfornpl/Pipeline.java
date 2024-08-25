@@ -6,7 +6,7 @@ import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 
 public class Pipeline {
     private static Properties properties;
-    private static String propertiesName = "tokenize, ssplit, pos"; //nome dos metodos de pesquisa
+    private static String propertiesName = "tokenize, ssplit, pos, lemma, ner, parse, sentiment"; //nome dos metodos de pesquisa
     private static StanfordCoreNLP stanfordCoreNLP;
 
     private Pipeline() { }
